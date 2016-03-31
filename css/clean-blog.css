@@ -393,3 +393,19 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+
+
+.mfs_player {
+	position: relative; 
+	height: 388px; 
+	width: 569px; 
+}
+
+.mfs_buynow {
+	width:72px;
+	height: 20px;
+	position:absolute;
+	top: 361px;
+	left: 481px;
+}
