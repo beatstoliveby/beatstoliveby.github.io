@@ -248,6 +248,9 @@ hr.small {
     font-size: 36px;
   }
 }
+.background {
+	background: Black;
+}
 .section-heading {
   font-size: 36px;
   margin-top: 60px;
@@ -409,3 +412,4 @@ body {
 	top: 361px;
 	left: 481px;
 }
+
