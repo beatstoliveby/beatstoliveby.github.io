@@ -36,7 +36,16 @@
 </head>
 
 <body>
-
+  
+  <!-- Facebook like JS -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=1536685286579706";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
   <!-- Navigation -->
   <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -50,6 +59,9 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="index.html">Beats to live by</a>
+        <a>
+          <div class="fb-like" data-href="https://www.facebook.com/Beatstoliveby/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+        </a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
