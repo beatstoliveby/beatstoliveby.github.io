@@ -412,4 +412,11 @@ body {
 
 .artist-post{
 	list-style: none;
+	padding: 0;
+	margin 0;
+}
+article ul li{
+	margin-right: 15px;
+  	display: inline;
+  	float: left;
 }
